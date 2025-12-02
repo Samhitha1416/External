@@ -16,7 +16,7 @@ pipeline{
         stage('Test') {
             steps {
                 echo 'Testing...'
-                echo 'No. of lines: 5'
+                echo 'No. of lines:{python3 count.py}'
             }
         }
         stage('Deploy') {
