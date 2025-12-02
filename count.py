@@ -4,7 +4,8 @@ def count_lines(path):
         return sum(1 for _ in f)
 
 if __name__ == "__main__":
-    path = input("Enter path to text file: ").strip() 
+    #path = input("Enter path to text file: ").strip()
+    path =  r"sample.txt"
     n = count_lines(path)
     print(f"Number of lines: {n}")
         
